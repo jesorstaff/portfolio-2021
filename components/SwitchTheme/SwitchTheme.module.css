@@ -1,0 +1,15 @@
+.themeButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: #7f5ad5;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+.themeButton svg {
+    margin: 0 auto;
+}

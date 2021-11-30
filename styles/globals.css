@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'M PLUS Rounded 1c';
+  src: url(../styles/fonts/MPLUSRounded1c-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'M PLUS Rounded 1c';
+  src: url(../styles/fonts/MPLUSRounded1c-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'M PLUS Rounded 1c';
+  src: url(../styles/fonts/MPLUSRounded1c-Regular.ttf);
+  font-weight: 400;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'M PLUS Rounded 1c', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #f0e7db;
+  color: #1a202c;
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
