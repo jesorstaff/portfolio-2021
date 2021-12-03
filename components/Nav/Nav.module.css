@@ -47,3 +47,42 @@
     display: flex;
     align-items: center;
 }
+
+/* Mobile menu */
+.open_menu_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.for_mobile {
+  display: flex;
+  align-items: center;  
+}
+
+.popup {
+    display: none;
+}
+
+.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 74px;
+    width: 280px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.open a {
+    margin: 5px 0;
+}

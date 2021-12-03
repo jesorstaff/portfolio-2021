@@ -4,3 +4,10 @@
     margin-right: auto;
     width: 100%;
 }
+
+@media screen and (max-width: 620px) {
+    .container {
+        max-width: none;
+        padding: 20px;
+    }
+}

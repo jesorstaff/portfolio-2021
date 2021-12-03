@@ -5,6 +5,15 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
 .imageProfile {
     max-width: 100px;
     object-fit: cover;
@@ -23,6 +32,13 @@
     border-style: solid;
     width: 100px;
     height: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .imageBorder {
+        margin-top: 25px;
+
+    }
 }
 
 .text h1 {
